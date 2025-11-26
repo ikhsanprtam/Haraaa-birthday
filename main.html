@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>HBD HARAAA</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Handlee&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="fade-in">
+    <div class="fade-wrapper">
+      <!-- Fireworks Canvas -->
+      <canvas id="fireworksCanvas"></canvas>
+      <!-- Loading Screen -->
+      <div class="loading-screen" id="loadingScreen">
+        <div class="loading-box">
+          <img src="img/cat.gif" alt="Loading..." class="loading-gif" />
+          <div class="pixel-bar">
+            <div class="pixel-fill"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content -->
+      <main class="screen active">
+        <div class="container">
+          <h1 class="pixel-title">My Favorite Pixel✦</h1>
+          <div class="collage">
+            <img
+              src="img/WhatsApp Image 2025-11-26 at 16.28.34.jpeg"
+              class="pic tilt-left"
+              alt="Photo 1"
+            />
+            <img
+              src="img/WhatsApp Image 2025-11-26 at 16.29.28.jpeg"
+              class="pic tilt-right"
+              alt="Photo 2"
+            />
+            <img
+              src="img/WhatsApp Image 2025-11-26 at 16.28.42.jpeg"
+              class="pic tilt-left"
+              alt="Photo 3"
+            />
+          </div>
+          <div class="letter-card">
+            <span class="corner tl"></span>
+            <span class="corner tr"></span>
+            <span class="corner bl"></span>
+            <span class="corner br"></span>
+            <h2 class="hand">Happy Birthday HARAAA 💌</h2>
+            <p>
+              Happy birthday, Hara! 🥳 Hari ini rasanya ikut ikut bahagia,
+              soalnya seseorang yang selalu bawa vibes positif di hidupku lagi
+              ulang tahun. Terima kasih ya, Har, udah jadi sahabat yang selalu
+              nyambung diajak cerita apa aja — dari hal receh sampai yang
+              serius. Kamu itu punya cara unik buat bikin hari jadi lebih hidup,
+              dan jujur… aku bersyukur banget bisa punya kamu di lingkaran
+              terdekatku. Di umur baru ini, semoga kamu makin dikelilingi
+              hal-hal yang bikin hati kamu hangat: tawa yang tulus, orang-orang
+              baik, dan keberuntungan kecil yang muncul tanpa disangka. Semoga
+              apa pun yang kamu mau capai, pelan-pelan mulai mendekat. Enjoy
+              your special day, Har! 🎂💖🌈
+            </p>
+          </div>
+          <button id="backBtn" class="pixel-btn ghost">BACK</button>
+        </div>
+      </main>
+    </div>
+    <audio id="bgMusic" loop src="hbd.mpeg" autoplay hidden></audio>
+
+    <div class="fade-wrapper"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
